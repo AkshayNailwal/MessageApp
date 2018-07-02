@@ -1,0 +1,25 @@
+{
+  "name": "messageapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "author": "Akshay_Nailwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "multer": "^1.3.1",
+    "nodemon": "^1.17.5",
+    "twilio": "^3.17.4",
+    "nexmo": "^2.3.2"
+  }
+  "engines": {
+    "node": "9.11.2"
+  }
+}
