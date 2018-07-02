@@ -50,7 +50,7 @@ if(accountSid && authToken) {
 	app.get("/second", users.second);
 	app.post("/third", users.third);
 	app.get("/test", users.test);
-	app.listen(process.env.port);
+	app.listen(process.env.PORT);
 }
 else {
 	console.log("Please provide the account sid and auth token for twilio api");
