@@ -9,6 +9,6 @@ exports.second = function(req,res){
 exports.third = function(req,res){
 	return res.render("thirdpage.ejs",{data:data});
 	};
-exports.test = function(req,res){
-	res.render("test.ejs");
-};
+exports.error = function(req, res){
+	return res.render("404.ejs");
+	};

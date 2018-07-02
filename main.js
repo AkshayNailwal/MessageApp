@@ -49,7 +49,7 @@ if(accountSid && authToken) {
 	app.post("/sendinfo", users.sendinfo);
 	app.get("/second", users.second);
 	app.post("/third", users.third);
-	app.get("/test", users.test);
+	app.get("/*", users.error);
 	app.listen(process.env.PORT);
 }
 else {
